@@ -1,0 +1,30 @@
+{
+  "name": "easy-upload-img",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "direct-upload": "node src/direct-upload",
+    "watch-upload": "node index.js upload"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ali-oss": "^6.17.1",
+    "chalk": "^4.1.0",
+    "commander": "^10.0.0",
+    "module-alias": "^2.2.2",
+    "slash": "^3.0.0"
+  },
+  "_moduleAliases": {
+    "@": ""
+  },
+  "devDependencies": {
+    "ali-oss": "^6.17.1",
+    "chalk": "^4.1.0",
+    "commander": "^10.0.0",
+    "slash": "^3.0.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "oss": {
+    "region": "",
+    "accessKeyId": "",
+    "accessKeySecret": "",
+    "bucket": "",
+    "allowFile": "png, jpg"
+  }
+}
